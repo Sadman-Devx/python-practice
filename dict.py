@@ -15,5 +15,5 @@ students = [
     {"name" : "abdullah","house":"None","mobile":"010922313"},
 ]   
 
-for student in students:
-    print(student["name"],student["house"],student["mobile"],sep =", ")
+for i,student in  enumerate(students,start=1):
+    print(i,student["name"],student["house"],student["mobile"],sep =", ")
